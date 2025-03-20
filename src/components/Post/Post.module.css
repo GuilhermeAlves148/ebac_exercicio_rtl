@@ -10,6 +10,10 @@
     display: block;
 }
 
+.zoomed {
+    transform: scale(1.5);
+}
+
 .post-text,
 .post-comments-form-textarea {
     color: #333;
@@ -19,7 +23,7 @@
 }
 
 .post-comments {
-    
+    margin: 10px 0;
 }
 
 .post-comment {
